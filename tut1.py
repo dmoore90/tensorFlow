@@ -31,4 +31,3 @@ for i in range(5):
 	plt.xlabel("Actual: " + class_names[test_labels[i]])
 	plt.title("Prediction: " + class_names[np.argmax(prediction[i])])
 	plt.show()
-TEST
